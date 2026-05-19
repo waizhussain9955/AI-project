@@ -115,108 +115,110 @@ if (store.getVehicles().length === 0) {
   getMockVehicles().forEach(v => store.addVehicle(v));
 }
 
-// ── Start Server ─────────────────────────────────────────────
+// ── Start Server (Only if NOT on Vercel) ──────────────────────
 const PORT = process.env.PORT || 3001;
 
-httpServer.listen(PORT, () => {
-  logger.info(`🚨 ResQ AI Backend running on port ${PORT}`);
-  logger.info(`🤖 AI Agent System initialized`);
-  logger.info(`⚡ WebSocket server ready`);
-  logger.info(`📡 Emergency event streaming active`);
+if (!process.env.VERCEL) {
+  httpServer.listen(PORT, () => {
+    logger.info(`🚨 ResQ AI Backend running on port ${PORT}`);
+    logger.info(`🤖 AI Agent System initialized`);
+    logger.info(`⚡ WebSocket server ready`);
+    logger.info(`📡 Emergency event streaming active`);
 
-  // Track pending and cooling down auto-detections to avoid parallel API spam
-  const pendingDetections = new Set<string>();
+    // Track pending and cooling down auto-detections to avoid parallel API spam
+    const pendingDetections = new Set<string>();
 
-  // ── Start Sensor & Analytics Loop ─────────────────────────
-  setInterval(() => {
-    try {
-      const readings = getLiveSensorReadings();
-      emitSensorReadings(io, readings);
+    // ── Start Sensor & Analytics Loop ─────────────────────────
+    setInterval(() => {
+      try {
+        const readings = getLiveSensorReadings();
+        emitSensorReadings(io, readings);
 
-      const activeIncidents = store.getIncidents({ status: 'ACTIVE' });
-      const scores = KARACHI_DISTRICTS.map(d => 
-        calculateDistrictScore(d.name, activeIncidents, readings)
-      );
-      emitSafetyScoreUpdate(io, scores);
-      
-      // ── Background Agent Heartbeat ───────────────────────────
-      const backgroundLogs = [
-        { agent: 'SignalCollectorAgent', step: 'Monitoring social media feeds for Karachi' },
-        { agent: 'CrisisDetectionAgent', step: 'Scanning satellite imagery for thermal anomalies' },
-        { agent: 'SignalCollectorAgent', step: 'Syncing with local weather station APIs' },
-        { agent: 'PredictionAgent', step: 'Updating long-term flood probability maps' },
-        { agent: 'SignalCollectorAgent', step: 'Processing citizen reports via WhatsApp bot' },
-        { agent: 'ResourcePlannerAgent', step: 'Auditing available ambulances in District South' },
-      ];
-      
-      const randomLog = backgroundLogs[Math.floor(Math.random() * backgroundLogs.length)];
-      emitAgentLog(io, {
-        reportId: 'SYSTEM',
-        ...randomLog,
-        status: 'RUNNING',
-        data: { uptime: process.uptime() }
-      });
+        const activeIncidents = store.getIncidents({ status: 'ACTIVE' });
+        const scores = KARACHI_DISTRICTS.map(d => 
+          calculateDistrictScore(d.name, activeIncidents, readings)
+        );
+        emitSafetyScoreUpdate(io, scores);
+        
+        // ── Background Agent Heartbeat ───────────────────────────
+        const backgroundLogs = [
+          { agent: 'SignalCollectorAgent', step: 'Monitoring social media feeds for Karachi' },
+          { agent: 'CrisisDetectionAgent', step: 'Scanning satellite imagery for thermal anomalies' },
+          { agent: 'SignalCollectorAgent', step: 'Syncing with local weather station APIs' },
+          { agent: 'PredictionAgent', step: 'Updating long-term flood probability maps' },
+          { agent: 'SignalCollectorAgent', step: 'Processing citizen reports via WhatsApp bot' },
+          { agent: 'ResourcePlannerAgent', step: 'Auditing available ambulances in District South' },
+        ];
+        
+        const randomLog = backgroundLogs[Math.floor(Math.random() * backgroundLogs.length)];
+        emitAgentLog(io, {
+          reportId: 'SYSTEM',
+          ...randomLog,
+          status: 'RUNNING',
+          data: { uptime: process.uptime() }
+        });
 
-      // ── Proactive Auto-Detection ──────────────────────────
-      readings.forEach(reading => {
-        if (reading.status === 'CRITICAL') {
-          const getExpectedType = (type: string) => {
-            switch(type) {
-              case 'WATER_LEVEL': return 'FLOOD';
-              case 'TEMPERATURE': return 'HEATWAVE';
-              case 'TRAFFIC_DENSITY': return 'TRAFFIC_BLOCKAGE';
-              case 'AIR_QUALITY': return 'INFRASTRUCTURE_FAILURE';
-              default: return 'UNKNOWN';
-            }
-          };
-          
-          const getHazard = (type: string) => {
-            switch(type) {
-              case 'WATER_LEVEL': return 'flooding';
-              case 'TEMPERATURE': return 'extreme heat';
-              case 'TRAFFIC_DENSITY': return 'severe traffic blockage';
-              case 'AIR_QUALITY': return 'toxic air quality';
-              default: return 'unknown';
-            }
-          };
-
-          const expectedType = getExpectedType(reading.type);
-          const hazard = getHazard(reading.type);
-
-          // Check if we already have an active incident for this in this district
-          const existing = activeIncidents.find(i => 
-            i.district === reading.district && 
-            i.detectedType === expectedType
-          );
-
-          const detectionKey = `${reading.district}-${expectedType}`;
-
-          if (!existing && !pendingDetections.has(detectionKey)) {
-            pendingDetections.add(detectionKey);
-            logger.warn(`🚨 AUTO-DETECTION: Critical ${reading.type} in ${reading.district}. Triggering AI analysis...`);
-            const reportId = `AUTO-${Date.now()}`;
+        // ── Proactive Auto-Detection ──────────────────────────
+        readings.forEach(reading => {
+          if (reading.status === 'CRITICAL') {
+            const getExpectedType = (type: string) => {
+              switch(type) {
+                case 'WATER_LEVEL': return 'FLOOD';
+                case 'TEMPERATURE': return 'HEATWAVE';
+                case 'TRAFFIC_DENSITY': return 'TRAFFIC_BLOCKAGE';
+                case 'AIR_QUALITY': return 'INFRASTRUCTURE_FAILURE';
+                default: return 'UNKNOWN';
+              }
+            };
             
-            analyzeEmergency({
-              description: `AUTOMATED ALERT: Critical ${reading.type} reading of ${reading.value}${reading.unit} detected by IoT sensors in ${reading.district}. Potential ${hazard} hazard.`,
-              district: reading.district,
-              latitude: KARACHI_DISTRICTS.find(d => d.name === reading.district)?.lat || 24.86,
-              longitude: KARACHI_DISTRICTS.find(d => d.name === reading.district)?.lng || 67.00,
-              reportId
-            })
-            .catch(err => logger.error('Auto-detection analysis failed:', err))
-            .finally(() => {
-              // Cool-down period of 45 seconds to prevent spamming the rate-limited API
-              setTimeout(() => {
-                pendingDetections.delete(detectionKey);
-              }, 45000);
-            });
+            const getHazard = (type: string) => {
+              switch(type) {
+                case 'WATER_LEVEL': return 'flooding';
+                case 'TEMPERATURE': return 'extreme heat';
+                case 'TRAFFIC_DENSITY': return 'severe traffic blockage';
+                case 'AIR_QUALITY': return 'toxic air quality';
+                default: return 'unknown';
+              }
+            };
+
+            const expectedType = getExpectedType(reading.type);
+            const hazard = getHazard(reading.type);
+
+            // Check if we already have an active incident for this in this district
+            const existing = activeIncidents.find(i => 
+              i.district === reading.district && 
+              i.detectedType === expectedType
+            );
+
+            const detectionKey = `${reading.district}-${expectedType}`;
+
+            if (!existing && !pendingDetections.has(detectionKey)) {
+              pendingDetections.add(detectionKey);
+              logger.warn(`🚨 AUTO-DETECTION: Critical ${reading.type} in ${reading.district}. Triggering AI analysis...`);
+              const reportId = `AUTO-${Date.now()}`;
+              
+              analyzeEmergency({
+                description: `AUTOMATED ALERT: Critical ${reading.type} reading of ${reading.value}${reading.unit} detected by IoT sensors in ${reading.district}. Potential ${hazard} hazard.`,
+                district: reading.district,
+                latitude: KARACHI_DISTRICTS.find(d => d.name === reading.district)?.lat || 24.86,
+                longitude: KARACHI_DISTRICTS.find(d => d.name === reading.district)?.lng || 67.00,
+                reportId
+              })
+              .catch(err => logger.error('Auto-detection analysis failed:', err))
+              .finally(() => {
+                // Cool-down period of 45 seconds to prevent spamming the rate-limited API
+                setTimeout(() => {
+                  pendingDetections.delete(detectionKey);
+                }, 45000);
+              });
+            }
           }
-        }
-      });
-    } catch (err) {
-      logger.error('Error in background simulation loop:', err);
-    }
-  }, 5000); // Update every 5 seconds
-});
+        });
+      } catch (err) {
+        logger.error('Error in background simulation loop:', err);
+      }
+    }, 5000); // Update every 5 seconds
+  });
+}
 
 export default app;
