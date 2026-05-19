@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { analyzeEmergency } from '../services/aiAnalysis.service';
+import { runComplexSimulation } from '../services/complexSimulation.service';
 import { store } from '../data/simpleStore';
 import { logger } from '../utils/logger';
 
@@ -80,6 +81,17 @@ router.post('/trigger', async (req: Request, res: Response) => {
       reportId,
       parameters: data
     }
+  });
+});
+
+// ── POST /simulation/trigger-complex — Trigger advanced multi-crisis scenario ──
+router.post('/trigger-complex', async (req: Request, res: Response) => {
+  // Run the complex simulation asynchronously
+  runComplexSimulation().catch(err => logger.error('Complex simulation failed:', err));
+
+  res.json({
+    success: true,
+    message: 'Advanced multi-crisis simulation scenario triggered'
   });
 });
 
