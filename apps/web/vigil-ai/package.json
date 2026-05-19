@@ -4,11 +4,12 @@
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-navigation/bottom-tabs": "^7.4.0",
     "@react-navigation/native": "^7.1.8",
     "@react-navigation/native-stack": "^7.3.16",
@@ -43,6 +44,8 @@
     "zustand": "^5.0.13"
   },
   "devDependencies": {
+    "@types/hammerjs": "^2.0.46",
+    "@types/pbf": "^3.0.5",
     "@types/react": "~19.1.0",
     "babel-preset-expo": "~54.0.10",
     "typescript": "~5.9.2"

@@ -15,8 +15,8 @@ const gemini = process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'you
   : null;
 const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY }) : null;
 
-// Use gemini-1.5-flash by default — free tier gives 15 RPM (vs 5 RPM for 2.5-flash)
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+// Use gemini-pro by default to ensure 100% compatibility with API v1
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-pro';
 
 // ── Agent Definitions ─────────────────────────────────────────
 export const AGENTS = {

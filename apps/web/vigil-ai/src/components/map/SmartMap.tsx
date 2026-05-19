@@ -82,7 +82,7 @@ export const SmartMap: React.FC = () => {
   const getSeverityColor = (sev: string) => {
     switch (sev?.toLowerCase()) {
       case 'critical': return DESIGN_TOKENS.colors.neonRed;
-      case 'high': return DESIGN_TOKENS.colors.neonYellow;
+      case 'high': return DESIGN_TOKENS.colors.neonOrange;
       case 'medium': return DESIGN_TOKENS.colors.neonCyan;
       default: return DESIGN_TOKENS.colors.textSecondary;
     }

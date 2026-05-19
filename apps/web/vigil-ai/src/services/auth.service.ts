@@ -34,7 +34,7 @@ export const authService = {
     // Store refresh token for later
     if (refreshToken) {
       try {
-        const { AsyncStorage } = await import('@react-native-async-storage/async-storage');
+        const AsyncStorage = (await import('@react-native-async-storage/async-storage')).default;
         await AsyncStorage.setItem('refresh_token', refreshToken);
       } catch {
         // AsyncStorage may not be available in all targets
@@ -78,9 +78,9 @@ export const authService = {
       id: `USR-${Date.now()}`,
       name: name || 'Waiz Hussain',
       email: email || 'waiz@gmail.com',
-      role: 'citizen',
+      role: 'citizen' as any,
       stats: { totalReports: 1, verifiedReports: 1, savedLives: 4, trustScore: 95 },
-      badges: ['First Responder'],
+      badges: ['First Responder'] as any,
       isAnonymous: false,
       createdAt: new Date(),
     };
@@ -104,9 +104,9 @@ export const authService = {
       id: 'USR-001',
       name: 'Waiz Hussain',
       email: 'waiz@gmail.com',
-      role: 'super_admin',
+      role: 'super_admin' as any,
       stats: { totalReports: 24, verifiedReports: 18, savedLives: 156, trustScore: 98 },
-      badges: ['Crisis Commander', 'AI Pioneer'],
+      badges: ['Crisis Commander', 'AI Pioneer'] as any,
       isAnonymous: false,
       createdAt: new Date(),
     };
