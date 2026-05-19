@@ -16,6 +16,7 @@ import { DESIGN_TOKENS } from '../../src/constants/mapThemes';
 import { useSharedValue, withRepeat, withSequence, withTiming, Easing } from 'react-native-reanimated';
 import { AnimatedView, useAnimatedStyle as useSafeAnimatedStyle } from '../../src/utils/reanimatedHelpers';
 import { GlassCard } from '../../src/components/ui/GlassCard';
+import { ENV } from '../../config/env';
 
 const { width: W, height: H } = Dimensions.get('window');
 
@@ -96,6 +97,18 @@ export default function HomeScreen() {
       setMapTheme('dark');
       // Fly to close detailed zoom in
       setCameraPosition(24.8607, 67.0011, 13.5);
+    }
+  };
+
+  const handleTriggerSimulation = async () => {
+    try {
+      console.log('Triggering Advanced Agentic Simulation...');
+      await fetch(`${ENV.API_BASE_URL}/simulation/complex`, {
+        method: 'POST',
+      });
+      console.log('Simulation triggered successfully');
+    } catch (err) {
+      console.error('Failed to trigger simulation:', err);
     }
   };
 
@@ -211,6 +224,15 @@ export default function HomeScreen() {
           >
             <Text style={styles.mapControlIcon}>🚨</Text>
             <Text style={styles.controlBtnLabel}>ALERTS</Text>
+          </Pressable>
+
+          {/* Secret Simulation Trigger for Hackathon Demo */}
+          <Pressable 
+            onPress={handleTriggerSimulation} 
+            style={[styles.mapControlBtn, { borderColor: DESIGN_TOKENS.colors.neonPurple }]}
+          >
+            <Text style={styles.mapControlIcon}>⚡</Text>
+            <Text style={styles.controlBtnLabel}>SIMULATE</Text>
           </Pressable>
         </View>
       </SafeAreaView>
