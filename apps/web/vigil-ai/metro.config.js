@@ -7,12 +7,12 @@ const path = require('path');
 
 const config = getDefaultConfig(__dirname);
 
-const mapboxGlStub = path.resolve(__dirname, 'src/mocks/mapbox-gl.mock.js');
+const mapboxGlStub = path.resolve(__dirname, 'src/mocks/rnmapbox.mock.js');
 
-// Intercept mapbox-gl resolution on web and return our stub
+// Intercept @rnmapbox/maps resolution on web and return our stub
 const originalResolveRequest = config.resolver.resolveRequest;
 config.resolver.resolveRequest = (context, moduleName, platform) => {
-  if (platform === 'web' && moduleName === 'mapbox-gl') {
+  if (platform === 'web' && moduleName === '@rnmapbox/maps') {
     return {
       filePath: mapboxGlStub,
       type: 'sourceFile',
