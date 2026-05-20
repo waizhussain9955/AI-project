@@ -16,15 +16,11 @@ const gemini = process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'you
 const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY }) : null;
 
 // Ensure we use a highly compatible model name that is always supported
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-1.5-flash-latest';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
 
 function getGenerativeModelSafe(options: { model?: string; generationConfig?: any }) {
   if (!gemini) throw new Error('Gemini not initialized');
   let name = options.model || GEMINI_MODEL;
-  // Normalize model name to ensure 100% compatibility with the current Google AI API
-  if (name === 'gemini-1.5-flash') {
-    name = 'gemini-1.5-flash-latest';
-  }
   return gemini.getGenerativeModel({
     model: name,
     generationConfig: options.generationConfig,
