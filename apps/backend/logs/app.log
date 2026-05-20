@@ -5,3 +5,720 @@
 2026-05-20 17:56:23 [info]: 🤖 AI Agent System initialized
 2026-05-20 17:56:23 [info]: ⚡ WebSocket server ready
 2026-05-20 17:56:23 [info]: 📡 Emergency event streaming active
+2026-05-20 17:56:28 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in Saddar. Triggering AI analysis...
+2026-05-20 17:56:31 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:31 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:31 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in Orangi. Triggering AI analysis...
+2026-05-20 17:56:33 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:33 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:33 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in Korangi. Triggering AI analysis...
+2026-05-20 17:56:34 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:34 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:34 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in Malir. Triggering AI analysis...
+2026-05-20 17:56:35 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:35 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:37 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:37 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Saddar
+2026-05-20 17:56:38 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:38 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Orangi
+2026-05-20 17:56:39 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:39 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Korangi
+2026-05-20 17:56:39 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in Clifton. Triggering AI analysis...
+2026-05-20 17:56:40 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:40 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:41 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:41 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Malir
+2026-05-20 17:56:42 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:42 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:43 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:43 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:44 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:44 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:45 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:45 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:45 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:45 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:46 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:46 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:47 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:47 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Clifton
+2026-05-20 17:56:48 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:48 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:49 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:49 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:49 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in Saddar. Triggering AI analysis...
+2026-05-20 17:56:49 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:49 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:49 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in Gulshan-e-Iqbal. Triggering AI analysis...
+2026-05-20 17:56:50 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:50 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:50 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in Gulshan-e-Iqbal. Triggering AI analysis...
+2026-05-20 17:56:50 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:50 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:51 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:51 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:52 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:52 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:52 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:52 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Saddar
+2026-05-20 17:56:53 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:53 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Gulshan-e-Iqbal
+2026-05-20 17:56:53 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:53 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Gulshan-e-Iqbal
+2026-05-20 17:56:54 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:54 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:54 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:54 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:55 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:55 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:56 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:56 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:56 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:56 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:56:57 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:57 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:56:57 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in Orangi. Triggering AI analysis...
+2026-05-20 17:56:57 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:57 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:57 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in Malir. Triggering AI analysis...
+2026-05-20 17:56:58 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:58 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:58 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in SITE. Triggering AI analysis...
+2026-05-20 17:56:58 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:58 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:56:59 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:59 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Orangi
+2026-05-20 17:56:59 [debug]: 💾 Store persisted to disk
+2026-05-20 17:56:59 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Malir
+2026-05-20 17:57:00 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:00 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for SITE
+2026-05-20 17:57:00 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:00 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:01 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:01 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:02 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:02 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:02 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:02 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:03 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:03 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:03 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:03 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:03 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in Lyari. Triggering AI analysis...
+2026-05-20 17:57:04 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:04 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:57:04 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:05 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:05 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:05 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:05 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:06 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:06 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:06 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:07 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:07 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:07 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:07 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:08 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:08 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:09 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:09 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Lyari
+2026-05-20 17:57:09 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:09 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:09 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:10 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:10 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:11 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:11 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:11 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:12 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:12 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:12 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:12 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:13 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:13 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:13 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:14 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:14 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:14 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:14 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:15 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:15 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:15 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in North Karachi. Triggering AI analysis...
+2026-05-20 17:57:15 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:15 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:57:15 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in Clifton. Triggering AI analysis...
+2026-05-20 17:57:16 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:16 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:57:16 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in Korangi. Triggering AI analysis...
+2026-05-20 17:57:17 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:17 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:57:18 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:18 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:19 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:19 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:19 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:19 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:19 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:20 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:20 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:21 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:21 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:23 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:23 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for North Karachi
+2026-05-20 17:57:24 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:24 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Clifton
+2026-05-20 17:57:25 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:25 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Korangi
+2026-05-20 17:57:25 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in North Karachi. Triggering AI analysis...
+2026-05-20 17:57:25 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:25 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:57:26 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:26 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:26 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:26 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:27 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:27 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:28 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:28 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:28 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:28 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:29 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:29 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:29 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:29 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for North Karachi
+2026-05-20 17:57:29 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:30 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:30 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:31 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:31 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:32 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:32 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:32 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in SITE. Triggering AI analysis...
+2026-05-20 17:57:32 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:32 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:57:33 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:33 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:33 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:33 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:33 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:34 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:34 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:36 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:36 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:37 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:37 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:37 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:37 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for SITE
+2026-05-20 17:57:38 [warn]: 🚨 AUTO-DETECTION: Critical TEMPERATURE in DHA. Triggering AI analysis...
+2026-05-20 17:57:38 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:38 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:57:38 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:39 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:39 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:40 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:40 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:41 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:41 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:41 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:41 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:42 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:42 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:43 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:43 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for DHA
+2026-05-20 17:57:43 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:57:43 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:43 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:57:43 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:57:44 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:44 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:57:45 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:45 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:57:45 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:45 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:57:46 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:46 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:57:47 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:47 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:57:47 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:47 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:47 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:48 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:48 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:49 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:49 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:49 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:49 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:49 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:50 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:50 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:51 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:51 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:52 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:52 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:57:52 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:52 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:57:52 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:53 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:53 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:53 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:53 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:54 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:54 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:54 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:57:55 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:55 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:57:55 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:55 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:55 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:57:56 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:56 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:57:57 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:57 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:57:57 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:57 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:57:58 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:58 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:57:58 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:57:59 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:59 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:57:59 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:57:59 [debug]: 💾 Store persisted to disk
+2026-05-20 17:57:59 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:58:00 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:00 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:58:00 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:00 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:58:00 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:58:01 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:01 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:58:02 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:02 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:58:02 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:02 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:58:03 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:03 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:04 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:04 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:04 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:58:04 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:04 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:58:05 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:05 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:58:05 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:05 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:58:05 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:58:06 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:06 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:58:07 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:07 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:58:07 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:07 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:58:07 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:08 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:08 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:08 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:08 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:08 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:09 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:09 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:10 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:10 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:10 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:11 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:11 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:11 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:12 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:12 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:12 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:12 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:13 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:13 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:14 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:14 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:15 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:15 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:15 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:15 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:15 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:16 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:16 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:17 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:17 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:18 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:18 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:19 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:19 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:19 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:19 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:19 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:19 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:20 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:20 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:21 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:21 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:21 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:21 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:21 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiDetection (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:302:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:90:27)
+2026-05-20 17:58:24 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:24 [info]: 🤖 [CrisisDetectionAgent] AI model inference complete
+2026-05-20 17:58:25 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:25 [info]: 🤖 [CrisisDetectionAgent] Crisis classification finalized
+2026-05-20 17:58:26 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:26 [info]: 🤖 [SeverityAnalyzerAgent] Analyzing severity metrics
+2026-05-20 17:58:28 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:28 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:58:29 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:29 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:58:30 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:30 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:58:31 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:31 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:58:32 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:32 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:58:34 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:34 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:58:35 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:35 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:36 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:36 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:37 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:37 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:58:38 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:38 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:58:39 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:39 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:58:39 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:39 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:58:40 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:40 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:58:40 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:40 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:58:40 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:41 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:41 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:41 [warn]: 🚨 AUTO-DETECTION: Critical TRAFFIC_DENSITY in Lyari. Triggering AI analysis...
+2026-05-20 17:58:41 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:41 [info]: 🤖 [SignalCollectorAgent] Collecting incident signals
+2026-05-20 17:58:42 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:42 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:43 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:43 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:43 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:43 [info]: 🤖 [SignalCollectorAgent] Cross-referencing weather data for Lyari
+2026-05-20 17:58:44 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:44 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:58:44 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:44 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:58:45 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:45 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:58:45 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:45 [info]: 🤖 [SignalCollectorAgent] Signal collection complete
+2026-05-20 17:58:46 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:46 [info]: 🤖 [CrisisDetectionAgent] Initializing crisis detection pipeline
+2026-05-20 17:58:47 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:47 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:58:47 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:47 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:58:48 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:48 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:58:48 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:49 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:49 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:49 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:49 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:49 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:50 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:50 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:58:50 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:50 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:58:51 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:51 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:58:52 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:52 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:52 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:52 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:53 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:53 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:58:53 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:53 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:58:53 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:58:54 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:54 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:58:56 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:56 [info]: 🤖 [ResourcePlannerAgent] Resource allocation optimized
+2026-05-20 17:58:57 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:57 [info]: 🤖 [ResourcePlannerAgent] Resource plan finalized
+2026-05-20 17:58:58 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:58 [info]: 🤖 [DispatchCoordinatorAgent] Initiating dispatch sequence
+2026-05-20 17:58:58 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:58 [info]: 🤖 [DispatchCoordinatorAgent] Dispatch orders transmitted
+2026-05-20 17:58:59 [debug]: 💾 Store persisted to disk
+2026-05-20 17:58:59 [info]: 🤖 [CitizenNotificationAgent] Generating multilingual alerts
+2026-05-20 17:59:00 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:00 [info]: 🤖 [SeverityAnalyzerAgent] Severity score computed
+2026-05-20 17:59:01 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:01 [info]: 🤖 [PredictionAgent] Running predictive spread model
+2026-05-20 17:59:02 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:02 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:59:03 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:03 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:59:04 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:04 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:59:04 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:59:04 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:04 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
+2026-05-20 17:59:05 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:05 [info]: 🤖 [PredictionAgent] Impact forecast generated
+2026-05-20 17:59:06 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:06 [info]: 🤖 [PredictionAgent] Prediction model output ready
+2026-05-20 17:59:07 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:07 [info]: 🤖 [ResourcePlannerAgent] Calculating resource requirements
+2026-05-20 17:59:07 [error]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:434:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at makeRequest (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:403:9)
+    at generateContent (D:\AI-app\apps\backend\node_modules\@google\generative-ai\dist\index.js:867:22)
+    at callWithRetry (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:249:14)
+    at callGeminiSeverity (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:344:20)
+    at analyzeEmergency (D:\AI-app\apps\backend\src\services\aiAnalysis.service.ts:102:26)
+2026-05-20 17:59:07 [debug]: 💾 Store persisted to disk
+2026-05-20 17:59:07 [info]: 🤖 [SeverityAnalyzerAgent] Population density analysis
