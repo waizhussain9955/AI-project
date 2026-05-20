@@ -16,6 +16,7 @@ import { DESIGN_TOKENS } from '../../src/constants/mapThemes';
 import { useSharedValue, withRepeat, withSequence, withTiming, Easing } from 'react-native-reanimated';
 import { AnimatedView, useAnimatedStyle as useSafeAnimatedStyle } from '../../src/utils/reanimatedHelpers';
 import { GlassCard } from '../../src/components/ui/GlassCard';
+import { Radar } from '../../src/components/ui/Radar';
 import { ENV } from '../../config/env';
 
 const { width: W, height: H } = Dimensions.get('window');
@@ -207,6 +208,24 @@ export default function HomeScreen() {
             </Pressable>
           </View>
         </GlassCard>
+
+        {/* ── LEFT TACTICAL RADAR HUD CARD ── */}
+        <View style={styles.leftRadarHud} pointerEvents="box-none">
+          <GlassCard intensity={32} borderColor={currentThemeColor} animateFloat={true} style={styles.radarCard}>
+            <Text style={[styles.radarHudTitle, { color: currentThemeColor }]}>AI SCANNER RADAR</Text>
+            <Radar size={120} color={currentThemeColor} activeIncidentsCount={activeCount} />
+            <View style={styles.radarLegend}>
+              <View style={styles.legendRow}>
+                <View style={[styles.legendDot, { backgroundColor: DESIGN_TOKENS.colors.neonRed }]} />
+                <Text style={styles.legendText}>THREAT LOCK</Text>
+              </View>
+              <View style={styles.legendRow}>
+                <View style={[styles.legendDot, { backgroundColor: DESIGN_TOKENS.colors.neonCyan }]} />
+                <Text style={styles.legendText}>SAFE ROUTE</Text>
+              </View>
+            </View>
+          </GlassCard>
+        </View>
 
         {/* ── Floating Map Controls Column ── */}
         <View style={styles.mapControls} pointerEvents="box-none">
@@ -520,5 +539,47 @@ const styles = StyleSheet.create({
   },
   fabEmoji: { fontSize: 22 },
   fabLabel: { fontSize: 8, fontWeight: '900', color: '#fff', letterSpacing: 1.5, marginTop: 1 },
+
+  // Left Tactical Radar HUD
+  leftRadarHud: {
+    position: 'absolute',
+    left: 12,
+    top: 110,
+    zIndex: 15,
+  },
+  radarCard: {
+    backgroundColor: 'rgba(5, 10, 20, 0.92)',
+    padding: 10,
+    alignItems: 'center',
+    gap: 8,
+    width: 144,
+  },
+  radarHudTitle: {
+    fontSize: 8.5,
+    fontWeight: '900',
+    letterSpacing: 1,
+    textAlign: 'center',
+  },
+  radarLegend: {
+    width: '100%',
+    gap: 4,
+    marginTop: 2,
+  },
+  legendRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+  },
+  legendDot: {
+    width: 5,
+    height: 5,
+    borderRadius: 2.5,
+  },
+  legendText: {
+    fontSize: 7.5,
+    fontWeight: '700',
+    color: 'rgba(255, 255, 255, 0.7)',
+    letterSpacing: 0.2,
+  },
 });
 

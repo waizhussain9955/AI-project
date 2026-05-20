@@ -15,8 +15,21 @@ const gemini = process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'you
   : null;
 const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY }) : null;
 
-// Use gemini-pro by default to ensure 100% compatibility with API v1
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-pro';
+// Ensure we use a highly compatible model name that is always supported
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-1.5-flash-latest';
+
+function getGenerativeModelSafe(options: { model?: string; generationConfig?: any }) {
+  if (!gemini) throw new Error('Gemini not initialized');
+  let name = options.model || GEMINI_MODEL;
+  // Normalize model name to ensure 100% compatibility with the current Google AI API
+  if (name === 'gemini-1.5-flash') {
+    name = 'gemini-1.5-flash-latest';
+  }
+  return gemini.getGenerativeModel({
+    model: name,
+    generationConfig: options.generationConfig,
+  });
+}
 
 // ── Agent Definitions ─────────────────────────────────────────
 export const AGENTS = {
@@ -272,7 +285,7 @@ async function callGeminiDetection(description: string, district: string) {
         reasoning: 'Heuristic-based classification (No Gemini Key)' 
       };
     }
-    const model = gemini.getGenerativeModel({ 
+    const model = getGenerativeModelSafe({ 
       model: GEMINI_MODEL,
       generationConfig: { maxOutputTokens: 500, temperature: 0.1 },
     });
@@ -312,7 +325,7 @@ async function callGeminiSeverity(description: string, type: string, district: s
         timeToEscalate: '20 minutes'
       };
     }
-    const model = gemini.getGenerativeModel({ 
+    const model = getGenerativeModelSafe({ 
       model: GEMINI_MODEL,
       generationConfig: { maxOutputTokens: 800, temperature: 0.1 },
     });
@@ -353,7 +366,7 @@ async function callGeminiPrediction(type: string, description: string, district:
   try {
     if (!gemini) return generatePredictionFallback(type);
 
-    const model = gemini.getGenerativeModel({ model: GEMINI_MODEL });
+    const model = getGenerativeModelSafe({ model: GEMINI_MODEL });
     const prompt = `Predict the spread and impact for this emergency in Karachi:
 Type: ${type}
 District: ${district}
@@ -382,7 +395,7 @@ async function callGeminiResourcePlan(type: string, severity: string, district: 
   try {
     if (!gemini) return planResourcesFallback(type, severity, district);
 
-    const model = gemini.getGenerativeModel({ model: GEMINI_MODEL });
+    const model = getGenerativeModelSafe({ model: GEMINI_MODEL });
     const prompt = `Plan rescue resources for this emergency in Karachi:
 Type: ${type}, Severity: ${severity}, District: ${district}
 Details: ${description}
@@ -413,7 +426,7 @@ async function callGeminiNotification(type: string, severity: string, district: 
   try {
     if (!gemini) return { title: `Alert: ${type}`, message: `Emergency in ${district}`, messageUrdu: 'ہنگامی صورتحال' };
 
-    const model = gemini.getGenerativeModel({ model: GEMINI_MODEL });
+    const model = getGenerativeModelSafe({ model: GEMINI_MODEL });
     const prompt = `Generate a high-urgency emergency alert for ${district}, Karachi:
 Type: ${type}, Severity: ${severity}
 
@@ -438,7 +451,7 @@ async function callGeminiRouteOptimization(type: string, lat: number, lng: numbe
   try {
     if (!gemini) return [];
 
-    const model = gemini.getGenerativeModel({ model: GEMINI_MODEL });
+    const model = getGenerativeModelSafe({ model: GEMINI_MODEL });
     const prompt = `Suggest 3 safe evacuation routes for ${district}, Karachi starting from ${lat}, ${lng} due to ${type}:
 
 Respond as JSON array:

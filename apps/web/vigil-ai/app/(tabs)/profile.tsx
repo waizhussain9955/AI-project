@@ -28,13 +28,27 @@ const ProfileOption: React.FC<ProfileOptionProps> = ({ icon, label, isLogout = f
 export default function ProfileScreen() {
   const { user, logout } = useUserStore();
 
-  // Reference image details: Muhammad Ali
-  const profileName = user?.name ?? "Muhammad Ali";
-  const profileHandle = "@muhammadali";
+  const profileName = user?.name || "Tactical Agent";
+  const profileHandle = user?.email || "agent.command@vigil.ai";
+  
+  const getInitials = (nameStr: string) => {
+    if (!nameStr) return 'TA';
+    return nameStr
+      .split(' ')
+      .map(part => part[0])
+      .slice(0, 2)
+      .join('')
+      .toUpperCase();
+  };
+
+  const initials = getInitials(profileName);
+
   const stats = {
-    reports: 24,
-    helped: 156,
-    score: "4.8 ★"
+    reports: user?.stats?.totalReports !== undefined ? user.stats.totalReports : (user ? 12 : 0),
+    helped: user?.stats?.savedLives !== undefined ? user.stats.savedLives : (user ? 84 : 0),
+    score: user?.stats?.trustScore !== undefined 
+      ? `${(user.stats.trustScore / 20).toFixed(1)} ★` 
+      : (user ? "4.9 ★" : "0.0 ★")
   };
 
   return (
@@ -53,7 +67,7 @@ export default function ProfileScreen() {
                 style={styles.avatarGrad}
               >
                 <View style={styles.avatarInner}>
-                  <Text style={styles.avatarText}>MA</Text>
+                  <Text style={styles.avatarText}>{initials}</Text>
                 </View>
               </LinearGradient>
             </View>

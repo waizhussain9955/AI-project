@@ -24,6 +24,7 @@ import { ENV } from '../../config/env';
 import { useIncidentStore } from '../store/useIncidentStore';
 import { useUserStore } from '../store/useUserStore';
 import { Incident } from '../types/incident.types';
+import { mapIncidentType } from '../hooks/useLiveIncidents';
 
 class SocketService {
   private socket: Socket | null = null;
@@ -35,8 +36,10 @@ class SocketService {
     if (this.socket?.connected) return;
 
     const authToken = token || useUserStore.getState().token || undefined;
+    const customIp = useUserStore.getState().serverIp;
+    const socketUrl = customIp ? `http://${customIp}:3001` : ENV.SOCKET_URL;
 
-    this.socket = io(ENV.SOCKET_URL, {
+    this.socket = io(socketUrl, {
       transports: ['websocket', 'polling'],
       reconnectionAttempts: this.maxReconnectAttempts,
       reconnectionDelay: 2000,
@@ -78,7 +81,7 @@ class SocketService {
         // AI analysis completion — create/update incident from report
         const incident: Incident = {
           id: payload.reportId,
-          type: (payload.detectedType?.toLowerCase() || 'accident') as any,
+          type: mapIncidentType(payload.detectedType || payload.type || 'accident'),
           title: payload.detectedType
             ? `${payload.detectedType} — ${payload.district || 'Karachi'}`
             : 'Emergency Alert',
@@ -119,7 +122,7 @@ class SocketService {
         const store = useIncidentStore.getState();
         const incident: Incident = {
           id: `alert-${Date.now()}`,
-          type: 'accident',
+          type: mapIncidentType(alert.title || 'accident'),
           title: alert.title || '🚨 Emergency Alert',
           description: alert.message || '',
           location: alert.location,

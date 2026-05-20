@@ -27,6 +27,13 @@ const SCENARIOS = {
     latitude: 24.8607,
     longitude: 67.0011,
     type: 'HEATWAVE'
+  },
+  GAS_LEAK: {
+    description: 'Hazardous gas leak reported at a chemical warehouse in Korangi Industrial Area. Toxic fumes spreading rapidly in nearby neighborhood. Ground sensors showing high PPM methane/toxic levels.',
+    district: 'Korangi',
+    latitude: 24.8105,
+    longitude: 67.1189,
+    type: 'CHEMICAL'
   }
 };
 

@@ -15,12 +15,19 @@ const api: AxiosInstance = axios.create({
   headers: { 'Content-Type': 'application/json' },
 });
 
-// Request interceptor — attach live JWT token from Zustand store
+// Request interceptor — attach live JWT token from Zustand store + dynamic server IP override
 api.interceptors.request.use((config) => {
   const token = useUserStore.getState().token;
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
+  
+  // Custom server IP override for seamless mobile-to-backend debugging
+  const customIp = useUserStore.getState().serverIp;
+  if (customIp) {
+    config.baseURL = `http://${customIp}:3001/api/v1`;
+  }
+  
   return config;
 });
 

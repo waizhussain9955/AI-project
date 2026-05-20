@@ -10,6 +10,7 @@ class SimpleStore {
   private incidents: any[] = [];
   private alerts: any[] = [];
   private vehicles: any[] = [];
+  private users: any[] = [];
   private agentLogs: Map<string, any[]> = new Map();
   private reports: Map<string, any> = new Map();
 
@@ -19,8 +20,42 @@ class SimpleStore {
       this.incidents = saved.incidents || [];
       this.alerts = saved.alerts || [];
       this.vehicles = saved.vehicles || [];
+      this.users = saved.users || [];
       this.reports = new Map(Object.entries(saved.reports || {}));
       this.agentLogs = new Map(Object.entries(saved.agentLogs || {}));
+    }
+    // Set default users if empty
+    if (this.users.length === 0) {
+      const bcrypt = require('bcryptjs');
+      this.users = [
+        {
+          id: 'USR-001',
+          email: 'admin@resqai.pk',
+          passwordHash: bcrypt.hashSync('admin123', 10),
+          name: 'System Admin',
+          role: 'SUPER_ADMIN',
+          isVerified: true,
+          phone: '+923001234567',
+        },
+        {
+          id: 'USR-002',
+          email: 'responder@resqai.pk',
+          passwordHash: bcrypt.hashSync('responder123', 10),
+          name: 'Ali Hassan',
+          role: 'RESPONDER',
+          isVerified: true,
+          phone: '+923007654321',
+        },
+        {
+          id: 'USR-003',
+          email: 'citizen@resqai.pk',
+          passwordHash: bcrypt.hashSync('citizen123', 10),
+          name: 'Fatima Khan',
+          role: 'CITIZEN',
+          isVerified: true,
+          phone: '+923009876543',
+        },
+      ];
     }
     logger.info('📦 SimpleStore initialized');
   }
@@ -30,6 +65,7 @@ class SimpleStore {
       incidents: this.incidents,
       alerts: this.alerts,
       vehicles: this.vehicles,
+      users: this.users,
       reports: Object.fromEntries(this.reports),
       agentLogs: Object.fromEntries(this.agentLogs),
     });
@@ -137,6 +173,25 @@ class SimpleStore {
       return this.vehicles[index];
     }
     return null;
+  }
+
+  // ── Users ──────────────────────────────────────────────────
+  addUser(user: any) {
+    this.users.push(user);
+    this.persist();
+    return user;
+  }
+
+  getUserByEmail(email: string) {
+    return this.users.find(u => u.email === email);
+  }
+
+  getUserById(id: string) {
+    return this.users.find(u => u.id === id);
+  }
+
+  getUsers() {
+    return this.users;
   }
 }
 

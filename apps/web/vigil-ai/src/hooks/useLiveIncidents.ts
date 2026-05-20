@@ -12,12 +12,39 @@ import { incidentApi } from '../services/api';
 import { Incident } from '../types/incident.types';
 import { ENV } from '../../config/env';
 
+export function mapIncidentType(rawType: string): 'flood' | 'fire' | 'accident' | 'collapse' | 'violence' | 'earthquake' | 'chemical' {
+  const type = rawType?.toLowerCase() || '';
+  if (type.includes('gas') || type.includes('chemical') || type.includes('leak') || type.includes('spill') || type.includes('toxic')) {
+    return 'chemical';
+  }
+  if (type.includes('flood') || type.includes('water') || type.includes('rain') || type.includes('drown')) {
+    return 'flood';
+  }
+  if (type.includes('fire') || type.includes('explosion') || type.includes('smoke') || type.includes('burn')) {
+    return 'fire';
+  }
+  if (type.includes('accident') || type.includes('crash') || type.includes('collision') || type.includes('road')) {
+    return 'accident';
+  }
+  if (type.includes('collapse') || type.includes('landslide')) {
+    return 'collapse';
+  }
+  if (type.includes('violence') || type.includes('threat') || type.includes('unrest') || type.includes('riot') || type.includes('shoot')) {
+    return 'violence';
+  }
+  if (type.includes('earthquake') || type.includes('seismic') || type.includes('tremor')) {
+    return 'earthquake';
+  }
+  return 'accident'; // fallback
+}
+
 /** Normalize backend incident (snake_case + different field names) to frontend type */
 function normalizeIncident(raw: any): Incident {
+  const rawType = raw.type || raw.detectedType || 'accident';
   return {
     id: raw.id,
-    type: (raw.type?.toLowerCase() || raw.detectedType?.toLowerCase() || 'accident') as any,
-    title: raw.title || raw.detectedType || 'Emergency',
+    type: mapIncidentType(rawType),
+    title: raw.title || raw.detectedType || 'Emergency Alert',
     description: raw.description || raw.recommendations?.[0] || '',
     location: {
       latitude: raw.latitude ?? raw.location?.latitude ?? 24.8607,
@@ -44,19 +71,19 @@ export const useLiveIncidents = () => {
   const query = useQuery<Incident[]>({
     queryKey: ['incidents'],
     queryFn: async () => {
-      if (!ENV.ENABLE_REAL_SOCKET) {
-        // Dev mode: return store state (mock data)
-        return useIncidentStore.getState().incidents;
-      }
-
       try {
-        const res = await incidentApi.getAll({ status: 'ACTIVE' });
-        const normalized = (res.data?.data || []).map(normalizeIncident);
+        const res = await incidentApi.getAll();
+        const rawList = res.data?.data || res.data || [];
+        const normalized = rawList.map(normalizeIncident);
 
         // Seed store with real data
         normalized.forEach((incident) => {
           const exists = useIncidentStore.getState().incidents.find((i) => i.id === incident.id);
-          if (!exists) addIncident(incident);
+          if (!exists) {
+            addIncident(incident);
+          } else {
+            updateIncident(incident.id, incident);
+          }
         });
 
         return normalized;
